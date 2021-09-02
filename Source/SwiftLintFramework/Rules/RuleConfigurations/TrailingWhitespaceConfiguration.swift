@@ -1,6 +1,7 @@
 public struct TrailingWhitespaceConfiguration: RuleConfiguration, Equatable {
     var severityConfiguration = SeverityConfiguration(.warning)
-    var ignoresEmptyLines = false
+//     var ignoresEmptyLines = false
+    var ignoresEmptyLines = true
     var ignoresComments = true
 
     public var consoleDescription: String {
