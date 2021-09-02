@@ -2,11 +2,14 @@ import Foundation
 import SourceKittenFramework
 
 public struct IdentifierNameRule: ASTRule, ConfigurationProviderRule {
-    public var configuration = NameConfiguration(minLengthWarning: 3,
-                                                 minLengthError: 2,
+//     public var configuration = NameConfiguration(minLengthWarning: 3,
+//                                                  minLengthError: 2,
+//                                                  maxLengthWarning: 40,
+//                                                  maxLengthError: 60)
+    public var configuration = NameConfiguration(minLengthWarning: 1,
+                                                 minLengthError: 0,
                                                  maxLengthWarning: 40,
                                                  maxLengthError: 60)
-
     public init() {}
 
     public static let description = RuleDescription(
