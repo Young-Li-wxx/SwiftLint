@@ -18,8 +18,8 @@ internal struct IdentifierNameRuleExamples {
 
     static let triggeringExamples = [
         Example("↓let MyLet = 0"),
-        Example("↓let _myLet = 0"),
-        Example("private ↓let myLet_ = 0"),
+//         Example("↓let _myLet = 0"),
+//         Example("private ↓let myLet_ = 0"),
         Example("↓let myExtremelyVeryVeryVeryVeryVeryVeryLongLet = 0"),
         Example("↓var myExtremelyVeryVeryVeryVeryVeryVeryLongVar = 0"),
         Example("private ↓let _myExtremelyVeryVeryVeryVeryVeryVeryLongLet = 0"),
